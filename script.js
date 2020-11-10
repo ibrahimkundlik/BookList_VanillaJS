@@ -17,7 +17,7 @@ addBtn.addEventListener("click", function (e) {
 		const delBtn = document.createElement("span");
 
 		bookName.innerText = addBook.value;
-		delBtn.innerText = "delete";
+		delBtn.innerText = "Delete";
 
 		bookName.classList.add("book-name");
 		delBtn.classList.add("delete");
