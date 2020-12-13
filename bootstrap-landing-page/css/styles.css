@@ -1,0 +1,29 @@
+html,
+body {
+	font-family: "Quicksand", sans-serif;
+}
+p {
+	font-size: 1.2rem;
+}
+li {
+	font-size: 1.1rem;
+}
+.navbar-toggler {
+	color: #3788db !important;
+	border-color: #3788db !important;
+}
+.header-section {
+	padding-top: 6rem;
+}
+.gradient-bg {
+	color: white;
+	background: rgb(2, 95, 241);
+	background: linear-gradient(
+		140deg,
+		rgba(2, 95, 241, 1) 0%,
+		rgba(96, 9, 203, 1) 55%
+	);
+}
+.play-btn:hover {
+	background-color: #68e1fd;
+}

@@ -1,1 +1,1 @@
-# BookList_VanillaJS
+# Practice-Projects-ALL

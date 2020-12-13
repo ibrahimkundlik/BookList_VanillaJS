@@ -1,17 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portfolio</title>
+		<link rel="stylesheet" href="./css/bootstrap.min.css" />
+		<link rel="stylesheet" href="./css/styles.css" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Quicksand:300,500"
+			rel="stylesheet"
+		/>
+		<link rel="icon" type="image/svg+xml" href="./img/favicon.svg" />
+	</head>
+	<body>
+		<!-- Navbar Section -->
+		<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+			<div class="container">
+				<a class="navbar-brand" href="#"
+					><img src="./img/logo.png" alt="logo image"
+				/></a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div
+					class="collapse navbar-collapse justify-content-end text-center"
+					id="navbarNav"
+				>
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link active px-3" aria-current="page" href="#"
+								>Home</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link px-3" href="#">Features</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link px-3" href="#">Pricing</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Header Section -->
+		<header class="gradient-bg header-section">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-md-6 mb-5 text-center text-md-start">
+						<h1 class="py-2">Build website using MDB</h1>
+						<p class="py-2 lh-base">
+							It's crafted with the latest trend of design & coded with all
+							modern approaches. It's a robust & multi-dimensional usable
+							template.
+						</p>
+						<button type="button" class="btn btn-outline-light play-btn">
+							Read More
+						</button>
+						<button type="button" class="btn btn-outline-light play-btn">
+							Play Video
+						</button>
+					</div>
+					<div class="col-md-6">
+						<img src="./img/email_campaign_monochromatic.svg" alt="" />
+					</div>
+				</div>
+			</div>
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 180">
+				<path
+					fill="#fff"
+					fill-opacity="1"
+					d="M0,128L48,117.3C96,107,192,85,288,90.7C384,96,480,128,576,117.3C672,107,768,53,864,64C960,75,1056,149,1152,165.3C1248,181,1344,139,1392,117.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+				></path>
+			</svg>
+		</header>
+
+		<!-- Company Section -->
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-md-6 col-lg-2 p-4">
+					<img
+						src="./img/companies/1.png"
+						class="img-fluid"
+						alt="company image"
+					/>
+				</div>
+				<div class="col-md-6 col-lg-2 p-4">
+					<img
+						src="./img/companies/2.png"
+						class="img-fluid"
+						alt="company image"
+					/>
+				</div>
+				<div class="col-md-6 col-lg-2 p-4">
+					<img
+						src="./img/companies/3.png"
+						class="img-fluid"
+						alt="company image"
+					/>
+				</div>
+				<div class="col-md-6 col-lg-2 p-4">
+					<img
+						src="./img/companies/4.png"
+						class="img-fluid"
+						alt="company image"
+					/>
+				</div>
+				<div class="col-md-6 col-lg-2 p-4">
+					<img
+						src="./img/companies/5.png"
+						class="img-fluid"
+						alt="company image"
+					/>
+				</div>
+				<div class="col-md-6 col-lg-2 p-4">
+					<img
+						src="./img/companies/6.png"
+						class="img-fluid"
+						alt="company image"
+					/>
+				</div>
+			</div>
+		</div>
+
+		<!-- MDB Intro -->
+		<div class="gradient-bg">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 240">
+				<path
+					fill="#fff"
+					fill-opacity="1"
+					d="M0,96L48,122.7C96,149,192,203,288,186.7C384,171,480,85,576,74.7C672,64,768,128,864,133.3C960,139,1056,85,1152,90.7C1248,96,1344,160,1392,192L1440,224L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+				></path>
+			</svg>
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-md-6">
+						<img src="./img/seo_monochromatic.svg" alt="seo image" />
+					</div>
+					<div class="col-md-6 text-center text-md-start">
+						<h1 class="py-2">Introducing MDB</h1>
+						<p class="py-2 lh-base">
+							It's crafted with the latest trend of design & coded with all
+							modern approaches. It's a robust & multi-dimensional usable
+							template.
+						</p>
+						<ul class="list-unstyled text-start mx-5">
+							<li class="my-3">
+								<img src="./img/check.svg" alt="checked image" /> Best for
+								Creative Agency
+							</li>
+							<li class="my-3">
+								<img src="./img/check.svg" alt="checked image" /> Built with
+								Latest Technology
+							</li>
+							<li class="my-3">
+								<img src="./img/check.svg" alt="checked image" /> Super
+								Responsive
+							</li>
+							<li class="my-3">
+								<img src="./img/check.svg" alt="checked image" /> Creative
+								Design
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+				<path
+					fill="#fff"
+					fill-opacity="1"
+					d="M0,64L48,96C96,128,192,192,288,197.3C384,203,480,149,576,117.3C672,85,768,75,864,80C960,85,1056,107,1152,122.7C1248,139,1344,149,1392,154.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+				></path>
+			</svg>
+		</div>
+
+		<script src="./js/bootstrap.min.js"></script>
+	</body>
 </html>
