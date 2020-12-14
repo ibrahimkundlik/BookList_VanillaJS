@@ -26,4 +26,28 @@ li {
 }
 .play-btn:hover {
 	background-color: #68e1fd;
+	border: 2px solid #14292e;
+}
+.icons {
+	width: 5rem;
+	height: 5rem;
+	margin: 0 auto 1rem auto;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.cards-section p {
+	font-size: 1rem;
+}
+.work-section {
+	background-color: rgb(233, 233, 233);
+}
+.work-section img {
+	border-radius: 1rem;
+	margin-top: 2rem;
+}
+.company-info button {
+	cursor: default !important;
+	font-size: 1.2rem;
 }
